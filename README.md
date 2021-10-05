@@ -18,10 +18,10 @@ Détaillez bien les outils et méthodes utilisées dans un rapport de travail ty
 ** TO DO LIST **
 
 -faire la première ébauche de mon site et la mettre sur Github - fait le 01/10/2021
--modifier mon menu gauche pour qu'il fasse la page sans empiéter sur l'entète et le pied de page 
--rajouter mes liens sur le pied de page
--adapter le notenu de mes autres pages
-- flèche haut de page, lien page suivante
+-modifier mon menu gauche pour qu'il fasse la page sans empiéter sur l'entète et le pied de page - fait
+-rajouter mes liens sur le pied de page - fait
+-adapter le notenu de mes autres pages fait
+- flèche haut de page, lien navigation - fait
 
 -comment garder le style graphique de ma première page sans le répéter??? (question à répondre)
 

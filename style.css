@@ -2,14 +2,12 @@
 body{
   background-color: #8fb7fd;
   font-family: Arial, Helvetica, sans-serif;
-  margin-right: 0;
-  margin-top: 0;
-  margin-left: 0;
-
+  margin:0;
 }
 
 h1{
   font-size: 2.25em;
+  margin:0;
   padding-top: 2em;
 }
 
@@ -19,28 +17,27 @@ h2{
 
 p {
   font-size: 1em;
-  padding: 5%;
+  padding: 4%;
   line-height: 2em;
   text-align: justify;
 }
 
  /*side bar*/
  .sidebar {
+  display: block;
   margin: 0;
   padding: 0;
-  width: 25%;
-  height: 100%;
+  width: 20%;
   float: left;
+}
+
+.sidebar ul{
+  padding:0;
 }
 
 .active {
   background-color: #fff;
   color: #000;
-}
-
-li:active {
-  background: #0000dd;
-  color: #cdfeaa00;
 }
 
 .button li {
@@ -60,7 +57,7 @@ li:active {
 }
 
 .button li a:visited{
-  color: #000 ;
+  color: #b90404;
 }
 
 .button li:hover{
@@ -71,15 +68,25 @@ li:active {
 
 /*corps de page*/
 .content{
+  background-color: bisque;
   display: inline-block;
   width: 75%;
+  padding-bottom: 5%;
+}
+
+.content img {
+  text-align: center;
 }
 
 /*header and footer*/
 .imgtri{
-  background-image:url("https://acm-sport.com/wp-content/uploads/2017/05/picture1-ok-.jpg");
+  background-image:url("image/imagetriheader.jpg");
   background-size: auto;
-  background-attachment: fixed;
+  background-attachment:fixed;
+  border:0;
+  margin:0;
+  padding:0;
+  padding-top:25px.
 }
 
 h2, #header p,#header, footer {
@@ -93,32 +100,37 @@ h2, #header p,#header, footer {
 
 #header {
   height: 457px;
+  background-attachment: fixed;
 }
 
 /*footer*/
 footer {
-  margin-bottom: -10px;
   padding-top: 2em;
   height: 330px;
   width: auto;
-  display: block;
+  background-attachment: fixed; 
 }
 
 footer ul li{
   display: inline-block;
-  padding: 0 1.25em 0 0;
 }
 
 footer h3 {
   text-transform: capitalize;
 }
 
-.liste-reseaux img {
-  padding: 0 0.25em 0 0;
+.liste-reseaux li img {
+  padding: 0 1em 0 0;
   display: inline-block;
   height: 30pt;
   width: 30pt;
   list-style-type: none;
+}
+
+#footerreseaux {
+  padding-top:25px;
+  margin-left: 35%;
+  margin-right: 35%;
 }
 
 /*logo de la fede*/
@@ -131,9 +143,21 @@ footer h3 {
 
 /*image de lien natation, vélo, course a pied*/
 .content_img {
+  object-fit: cover;
+  height: 300px;
   margin:15 0 15 0;
   width: 100%;
   float: right;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.me img {
+  height: 400px;
 }
 
 /*tableaux*/
