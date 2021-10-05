@@ -24,5 +24,5 @@ Détaillez bien les outils et méthodes utilisées dans un rapport de travail ty
 - flèche haut de page, lien navigation - fait
 
 -comment garder le style graphique de ma première page sans le répéter??? (question à répondre)
-
+-réaliser lien vers mail?
 -adapter le code de mon site afin qu'il soit plus lisible
